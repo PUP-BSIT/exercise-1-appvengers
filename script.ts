@@ -12,7 +12,7 @@ type Member = {
   group: KpopGroup;
   position: string;
   print(): void;
-}
+};
 
 // TODO(Arroyo): Create an Object based on the Type created by Ynion.
 
