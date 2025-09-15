@@ -1,4 +1,3 @@
-// TODO(Ynion): Create an Enum with atleast 5 elements of any type.
 var KpopGroup;
 (function (KpopGroup) {
     KpopGroup["BLACKPINK"] = "Blackpink";
@@ -8,9 +7,16 @@ var KpopGroup;
     KpopGroup["ENHYPEN"] = "Enhypen";
 })(KpopGroup || (KpopGroup = {}));
 // TODO(Arroyo): Create an Object based on the Type created by Ynion.
-// TODO(Delima): Create an Object based on the Type created by Ynion.
+var member2 = {
+    name: "Xiumin",
+    age: 35,
+    group: KpopGroup.EXO,
+    position: "Sub-Vocalist, Sub-Rapper",
+    print: function () {
+        console.log("\n      Name: ".concat(this.name, "\n      Age: ").concat(this.age, "\n      Group: ").concat(this.group, "\n      Position: ").concat(this.position, "\n    "));
+    },
+};
 // TODO(Mejares): Create an Object based on the Type created by Ynion.
-// TODO(Ynion): Create an Object based on the Type created by Ynion.
 var member4 = {
     name: "Kim Minji",
     age: 21,
@@ -30,6 +36,7 @@ var member5 = {
     },
 };
 // TODO: (All Members): Call the print method you created in your object.
+member2.print();
 member4.print();
 member5.print();
 // NOTE: Delete the comment once a task assigned is finished/completed.
