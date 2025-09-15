@@ -36,6 +36,7 @@ var member5 = {
     },
 };
 // TODO: (All Members): Call the print method you created in your object.
+member2.print();
 member4.print();
 member5.print();
 // NOTE: Delete the comment once a task assigned is finished/completed.
