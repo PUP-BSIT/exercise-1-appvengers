@@ -16,10 +16,22 @@ type Member = {
 
 // TODO(Arroyo): Create an Object based on the Type created by Ynion.
 
-// TODO(Delima): Create an Object based on the Type created by Ynion.
+const member2: Member = {
+  name: "Xiumin",
+  age: 35,
+  group: KpopGroup.EXO,
+  position:"Sub-Vocalist, Sub-Rapper",
+  print() {
+    console.log(`
+      Name: ${this.name}
+      Age: ${this.age}
+      Group: ${this.group}
+      Position: ${this.position}
+    `);
+  },
+};
 
 // TODO(Mejares): Create an Object based on the Type created by Ynion.
-
 
 const member4: Member = {
   name: "Kim Minji",
