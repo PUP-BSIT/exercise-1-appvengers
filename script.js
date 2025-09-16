@@ -6,7 +6,17 @@ var KpopGroup;
     KpopGroup["BABYMONSTER"] = "Babymonster";
     KpopGroup["ENHYPEN"] = "Enhypen";
 })(KpopGroup || (KpopGroup = {}));
-// TODO(Arroyo): Create an Object based on the Type created by Ynion.
+
+var member1 = {
+    name: "Ruka",
+    age: 23,
+    group: KpopGroup.BABYMONSTER,
+    position: "Main Rapper, Main Dancer",
+    print: function () {
+        console.log("\n      Name: ".concat(this.name, "\n      Age: ").concat(this.age, "\n      Group: ").concat(this.group, "\n      Position: ").concat(this.position, "\n    "));
+    },
+};
+
 var member2 = {
     name: "Xiumin",
     age: 35,
@@ -16,6 +26,7 @@ var member2 = {
         console.log("\n      Name: ".concat(this.name, "\n      Age: ").concat(this.age, "\n      Group: ").concat(this.group, "\n      Position: ").concat(this.position, "\n    "));
     },
 };
+
 var member3 = {
     name: "Kim Ji-soo",
     age: 30,
@@ -25,6 +36,7 @@ var member3 = {
         console.log("\n      Name: ".concat(this.name, "\n      Age: ").concat(this.age, "\n      Group: ").concat(this.group, "\n      Position: ").concat(this.position, "\n    "));
     },
 };
+
 var member4 = {
     name: "Kim Minji",
     age: 21,
@@ -34,6 +46,7 @@ var member4 = {
         console.log("\n      Name: ".concat(this.name, "\n      Age: ").concat(this.age, "\n      Group: ").concat(this.group, "\n      Position: ").concat(this.position, "\n    "));
     },
 };
+
 var member5 = {
     name: "Jake Sim",
     age: 23,
@@ -43,9 +56,10 @@ var member5 = {
         console.log("\n      Name: ".concat(this.name, "\n      Age: ").concat(this.age, "\n      Group: ").concat(this.group, "\n      Position: ").concat(this.position, "\n    "));
     },
 };
-// TODO: (All Members): Call the print method you created in your object.
+
+member1.print();
 member2.print();
 member3.print();
 member4.print();
 member5.print();
-// NOTE: Delete the comment once a task assigned is finished/completed.
+
